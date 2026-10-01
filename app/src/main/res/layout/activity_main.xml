@@ -37,6 +37,13 @@
             android:textSize="32sp"
             android:textStyle="bold" />
 
+        <EditText
+            android:id="@+id/edDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Descripción"
+            android:inputType="text" />
+
         <!-- Ingreso del monto -->
         <EditText
             android:id="@+id/edAmount"
